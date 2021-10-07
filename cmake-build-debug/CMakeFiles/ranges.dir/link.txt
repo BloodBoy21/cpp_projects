@@ -1,0 +1,3 @@
+C:\Users\death\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\ranges.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\ranges.dir/objects.a @CMakeFiles\ranges.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ranges.dir/objects.a -Wl,--no-whole-archive -o ranges.exe -Wl,--out-implib,libranges.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ranges.dir\linklibs.rsp
